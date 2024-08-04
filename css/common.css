@@ -1,0 +1,30 @@
+/* 모든 페이지에서 사용될 css */
+
+@import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Orbit&family=Playwrite+CU:wght@100..400&display=swap);
+
+
+/* font-family: "Playwrite CU", cursive; Friend Finder글씨체 */
+/* font-family: "Orbit", sans-serif; Orbit 글씨체 사용 시 */
+/* font-family: "Nanum Gothic", sans-serif; 나눔 고딕체 사용시 */
+
+/* 모든 요소에 Nanum Gothic 체 적용 */
+* {
+  font-family: "Nanum Gothic", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.err {
+  color: red;
+}
+
+button{
+  cursor: pointer;
+  background-color: #50CB99;
+  border-radius: 5px;
+}
+
+ul, li{
+  list-style: none;
+
+}

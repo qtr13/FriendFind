@@ -1,0 +1,163 @@
+/* 회원가입, 로그인, ID, PW찾기에서 사용될 css */
+
+.auth-background{
+  display: flex;
+  justify-content: center;
+  padding: 30px 30px 100px;
+}
+
+.auth-container{
+  border: 2px solid black;
+  width: 1000px;
+  padding: 20px 10px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.auth-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 90%;
+  padding-left: 40px;
+}
+
+.logo{
+  width: 150px;
+}
+
+.page_title{
+  font-size: 25px;
+  font-weight: 900px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.boxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.user_info{
+  margin-top: 30px;
+  margin-right: 60px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.account_info{
+  margin-top: 0px;
+  margin-right: 60px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.school_info{
+  margin: 0px 60px 0px 30px
+}
+
+.new-pw{
+  margin-left: 30px;
+  margin-right: 60px;
+}
+
+.input-box{
+  border: 1px solid black;
+  padding: 10px 20px 10px;
+  
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+
+  position: relative;
+}
+
+.input-box input{
+  border: 1px solid black;
+  padding: 10px 10px;
+  width: 70%;
+}
+
+
+.ending_box{
+  display: flex;
+  flex-direction: row;
+
+  margin: 10px 60px 10px 30px;
+}
+
+.ending_button{
+  background-color: #50cb99;
+  border: none;
+  padding: 20px;
+  width: 200px;
+
+  font-family: "Orbit", sans-serif;
+  font-size: 30px;
+
+  margin-left: 50px;
+}
+
+.change_btn{
+  background-color: #50cb99;
+  border: 1px solid black;
+  padding: 20px;
+
+  font-family: "Orbit", sans-serif;
+  font-size: 20px;
+}
+
+.ending_button_kakao{
+  background-color: #FEE500;
+  padding: 12px;
+  border: none;
+  color: #000000D9;
+  width: 350px;
+
+  font-family: "Orbit", sans-serif;
+  font-size: 30px;
+}
+
+.ending_button_naver{
+  border: none;
+  background-color: #03c75a;
+  padding: 12px;
+  color: white;
+  width: 350px;
+
+  font-family: "Orbit", sans-serif;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.status_mes{
+  font-size: 12px;
+  max-width: 350px;
+}
+
+.mini_button{
+  width: auto;
+  height: 30px;
+  border-radius: 5px;;
+}
+
+.privacy-check{
+  display: flex;
+  flex-direction: row;
+
+  border: 1px solid black;
+  padding: 10px 20px;
+  width: 868px;
+}
+
+.auth-foot{
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.vertical_line{
+  border-right: 1px solid silver;
+}
